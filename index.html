@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="screen">
+        <h1>Перевіримо реакцію?</h1>
+        <a href="#" id="start">GO</a>
+    </div>
+    <div class="screen">
+        <h1>Оберіть час гри</h1>
+        <ul>
+            <li><button class="time" data-time="5">5s</button></li>
+            <li><button class="time" data-time="15">15s</button></li>
+            <li><button class="time" data-time="30">30s</button></li>
+        </ul>
+    </div>
+    <div class="screen">
+        <h1>До завершення гри: <span id="time">00:00</span></h1>
+        <div class="board" id="board"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

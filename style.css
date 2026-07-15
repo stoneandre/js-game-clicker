@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    /* border: none; */
+    border-color: transparent;
+    background-color: transparent;
+    color: inherit;
+    font-family: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+input {
+    font-family: inherit;
+    border: none;
+    background-color: transparent;
+}
+
+/* КІНЕЦЬ СКИДАНЬ СТИЛІВ */
+
+
+
+
+
+
+
+
+
+
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
+}
+
+.screen{
+    height: 100vh;
+    background-color: black;
+    color: rgb(173, 172, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    row-rule: 1px solid #8000ff;
+    row-rule-inset: 100px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    button{
+        background-color: rgba(255, 0, 157, 0.484);
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+        font-size: 52px;
+    }
+}
+.board{
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+}
+
+.screen.up{
+    margin-top: -100vh;
+}
+.circle{
+    background-color: wheat;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.success{
+    color: rgb(149, 255, 0);
+}
+.base{
+    color: red;
+}
